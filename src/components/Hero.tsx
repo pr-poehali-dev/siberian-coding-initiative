@@ -20,19 +20,19 @@ export default function Hero() {
       >
         <img
           src="/images/mountain-landscape.jpg"
-          alt="Фон"
+          alt="Стадион"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-blue-900/50" />
+        <div className="absolute inset-0 bg-stone-900/60" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-6">
-        <p className="text-sm uppercase tracking-widest mb-4 opacity-80">Итоговый проект · 9 класс</p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          MICROSOFT<br />WORD
+        <p className="text-sm uppercase tracking-widest mb-4 opacity-70">Итоговый проект · 9 класс · История</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 uppercase">
+          История<br />Спорта
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-          Мощный текстовый редактор, который изменил способ работы с документами во всём мире
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 leading-relaxed">
+          От Олимпийских игр Древней Греции до глобального бизнеса XXI века — как спорт менял мир на протяжении тысячелетий
         </p>
       </div>
     </div>

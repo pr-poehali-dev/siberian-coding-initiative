@@ -6,38 +6,41 @@ export default function Footer() {
     >
       <div className="relative h-[calc(100vh+400px)] sm:h-[calc(100vh+600px)] lg:h-[calc(100vh+800px)] -top-[100vh]">
         <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
-          <div className="bg-blue-950 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
+          <div className="bg-stone-950 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-blue-300 text-xs sm:text-sm">О проекте</h3>
-                <a href="#about" className="text-white hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base">
-                  О программе
+                <h3 className="mb-1 sm:mb-2 uppercase text-amber-500 text-xs sm:text-sm tracking-widest">Главы</h3>
+                <a href="#ancient" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">
+                  Античность
                 </a>
-                <a href="#history" className="text-white hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base">
-                  История
+                <a href="#middle" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">
+                  Средневековье
                 </a>
-                <a href="#features" className="text-white hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base">
-                  Возможности
+                <a href="#modern" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">
+                  Новое время
+                </a>
+                <a href="#xx" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">
+                  XX век
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-blue-300 text-xs sm:text-sm">Материалы</h3>
-                <a href="#guide" className="text-white hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base">
-                  Руководство
+                <h3 className="mb-1 sm:mb-2 uppercase text-amber-500 text-xs sm:text-sm tracking-widest">Проект</h3>
+                <a href="#intro" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">
+                  Введение
                 </a>
-                <a href="#tips" className="text-white hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base">
-                  Советы
+                <a href="#practice" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">
+                  Практическая часть
                 </a>
-                <a href="#sources" className="text-white hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base">
+                <a href="#sources" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">
                   Источники
                 </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1 className="text-[14vw] sm:text-[12vw] lg:text-[10vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                MS WORD
+              <h1 className="text-[11vw] sm:text-[10vw] lg:text-[8vw] leading-[0.85] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight uppercase">
+                История<br />Спорта
               </h1>
-              <p className="text-blue-300 text-sm sm:text-base">Итоговый проект · 9 класс · {new Date().getFullYear()}</p>
+              <p className="text-amber-500 text-sm sm:text-base">Итоговый проект · 9 класс · {new Date().getFullYear()}</p>
             </div>
           </div>
         </div>
