@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 const chapters = [
   { era: "776 до н.э.", title: "Античные истоки", desc: "Олимпийские игры Древней Греции — религиозный праздник, священное перемирие и культ состязательности" },
   { era: "Средневековье", title: "Рыцарские турниры", desc: "Спорт аристократии как демонстрация воинского мастерства и народные игры — прото-футбол" },
@@ -6,6 +8,7 @@ const chapters = [
 ];
 
 export default function Featured() {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-white">
       <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
@@ -31,7 +34,10 @@ export default function Featured() {
             </div>
           ))}
         </div>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <button
+          onClick={() => navigate("/slides")}
+          className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide"
+        >
           Читать проект
         </button>
       </div>
