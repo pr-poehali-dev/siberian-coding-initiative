@@ -20,17 +20,19 @@ export default function Hero() {
       >
         <img
           src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          alt="Фон"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-blue-900/50" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-sm uppercase tracking-widest mb-4 opacity-80">Итоговый проект · 9 класс</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          MICROSOFT<br />WORD
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
+          Мощный текстовый редактор, который изменил способ работы с документами во всём мире
         </p>
       </div>
     </div>
